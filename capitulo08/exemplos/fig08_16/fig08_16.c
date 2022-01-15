@@ -11,6 +11,6 @@ int main( void ){
 	sscanf( s, "%d%lf", &x, &y );
 	printf( "%s\n%s%6d\n%s%8.3f\n",
 	        "Os valores armazenados no array de caracteres s são",
-	        "integer:", x, "double", y );
+	        "integer: ", x, "double: ", y );
 	return 0; /* indica conclusão bem-sucedida */
 } /* fim do main */
