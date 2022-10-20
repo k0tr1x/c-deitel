@@ -5,9 +5,11 @@ Se os números forem iguais, imprima a mensagem "Esses números são iguais". Use a
 */
 
 #include<stdio.h>
+#include<locale.h>
 
 int main(){
 
+setlocale(LC_ALL,"portuguese");
 int num1, num2;
 
 printf("Vamos ver qual é o maior número:\n");
